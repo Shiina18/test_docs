@@ -32,7 +32,7 @@ This is a caption in __*Markdown*__
 
 ```{figure} ./_static/Snipaste_2023-04-13_18-44-55.png
 :figwidth: 450px
-:figclass: .bg-transparent
+:figclass: bg-transparent
 ```
 
 ## Motivation
