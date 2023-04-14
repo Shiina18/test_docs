@@ -30,6 +30,13 @@ This is a caption in __*Markdown*__
 :align: center
 ```
 
+```{image} ./_static/Snipaste_2023-04-13_18-44-55.png
+:alt: fishy
+:class: bg-transparent
+:width: 400px
+:align: center
+```
+
 ```{figure} ./_static/Snipaste_2023-04-13_18-44-55.png
 :figwidth: 450px
 :figclass: bg-transparent
