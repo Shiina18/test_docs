@@ -54,9 +54,16 @@ This is a caption in __*Markdown*__
 
 -  - [ReadTheDocs tip](https://www.sphinx-doc.org/en/master/usage/quickstart.html#intersphinx)
 
--  - {ref}`Figure reference with URL image <https://www.cnipa.gov.cn/picture/0/2206161824025767678.png>`
+-  - {ref}`Figure reference with URL image <./_static/Snipaste_2023-04-13_18-44-55.png>`
 
 :::
+
+
+[图](./_static/Snipaste_2023-04-13_18-44-55.png)
+
+[图](https://media.wizards.com/2022/snc/en_Zw3fQbmCPJ.png)
+
+{ref}`Figure reference with URL image <./_static/Snipaste_2023-04-13_18-44-55.png>`
 
 ## Acknowledgement
 
