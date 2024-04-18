@@ -44,6 +44,10 @@ This is a caption in __*Markdown*__
 
 ## Motivation
 
+[百度](https://www.baidu.com/)
+
+{ref}`Figure reference with URL image <https://www.cnipa.gov.cn/picture/0/2206161824025767678.png>`
+
 ## Acknowledgement
 
 ```

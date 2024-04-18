@@ -17,6 +17,7 @@ copyright = '2023, C7'
 extensions = [
     'myst_parser',
     'sphinx_copybutton',
+    'sphinx_tippy',
 ]
 
 templates_path = ['_templates']
