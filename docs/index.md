@@ -44,9 +44,19 @@ This is a caption in __*Markdown*__
 
 ## Motivation
 
-[百度](https://www.baidu.com/)
+:::{list-table}
 
-{ref}`Figure reference with URL image <https://www.cnipa.gov.cn/picture/0/2206161824025767678.png>`
+-  - [Custom tip](https://example.com)
+
+-  - [Wikipedia tips](https://en.wikipedia.org/wiki/Tooltip)
+
+-  - [DOI tip](https://doi.org/10.1186/gm483)
+
+-  - [ReadTheDocs tip](https://www.sphinx-doc.org/en/master/usage/quickstart.html#intersphinx)
+
+-  - {ref}`Figure reference with URL image <https://www.cnipa.gov.cn/picture/0/2206161824025767678.png>`
+
+:::
 
 ## Acknowledgement
 
