@@ -61,7 +61,7 @@ This is a caption in __*Markdown*__
 
 [图](./_static/Snipaste_2023-04-13_18-44-55.png)
 
-[图](https://media.wizards.com/2022/snc/en_Zw3fQbmCPJ.png)
+[图](http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=457000&type=card)
 
 {ref}`Figure reference with URL image <./_static/Snipaste_2023-04-13_18-44-55.png>`
 

@@ -6,7 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
   // 为每个链接添加事件监听器
   imageLinks.forEach(link => {
     // 只有当链接的href包含图片扩展名时才应用预览
-    if ( /\.(jpe?g|png|gif)$/i.test(link.href) ) {
+    // if ( /\.(jpe?g|png|gif)$/i.test(link.href) ) {
+    if (link.href.startsWith('http://gatherer.wizards.com/Handlers/Image.ashx')) {
       // 创建图片预览容器
       const preview = document.createElement('div');
       preview.className = 'image-preview';
@@ -27,6 +28,19 @@ document.addEventListener('DOMContentLoaded', function() {
       });
       link.addEventListener('mouseout', function() {
         preview.style.display = 'none';
+      });
+      
+      // 为链接添加点击事件监听器，以显示图片预览
+      link.addEventListener('click', function(event) {
+        event.preventDefault(); // 阻止默认的链接跳转行为
+        preview.style.display = 'block';
+      });
+
+      // 为文档添加点击事件监听器，以隐藏图片预览
+      document.addEventListener('click', function(event) {
+        if (!preview.contains(event.target) && event.target !== link) {
+          preview.style.display = 'none';
+        }
       });
     }
   });
