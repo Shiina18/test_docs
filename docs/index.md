@@ -63,9 +63,7 @@ This is a caption in __*Markdown*__
 
 [图](http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=457000&type=card)
 
-You are not authorized to view this object
-
-This object does not exist or is not publicly accessible at this URL. Check the URL of the object that [s](https://cards.scryfall.io/normal/front/3/f/3f8ac772-af5c-46c2-bf44-4b9184adc74a.jpg?1707434298) you're looking for or contact the owner to enable Public access.
+A wiki (/ˈwɪki/ ⓘ WI-kee) is a form of online hypertext publication that is collaboratively edited and managed by its own audience directly through a web browser. A typical wiki contains multiple pages for the subjects or scope of the project, and could be either open to the public or limited to use within an organization for maintaining its internal knowledge base. This is [image](https://cards.scryfall.io/normal/front/3/f/3f8ac772-af5c-46c2-bf44-4b9184adc74a.jpg?1707434298).
 
 [im](https://img.alicdn.com/imgextra/i1/O1CN01CC9kic1ig1r4sAY5d_!!6000000004441-2-tps-880-210.png)
 

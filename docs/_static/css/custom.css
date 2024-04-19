@@ -15,10 +15,14 @@
   padding: 10px;                  /* 在内容周围添加内边距，提供舒适的预览空间 */
   
   max-width: 300px;
+  
+  /* 移动到文字下方 */
+  transform: translate(-30px, 20px);
 }
 
 /* 鼠标悬停时显示图片预览 */
 a.image-link:hover + .image-preview,
 a.image-link:focus + .image-preview {
-  display: block; /* 当鼠标悬停或焦点在链接上时显示图片预览 */
+  display: inline-block; /* 当鼠标悬停或焦点在链接上时显示图片预览 */
 }
+

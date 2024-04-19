@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // 为链接添加事件监听器，以显示/隐藏预览
       link.addEventListener('mouseover', function() {
-        preview.style.display = 'block';
+        preview.style.display = 'inline-block';
       });
       link.addEventListener('mouseout', function() {
         preview.style.display = 'none';
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // 为链接添加点击事件监听器，以显示图片预览
       link.addEventListener('click', function(event) {
         event.preventDefault(); // 阻止默认的链接跳转行为
-        preview.style.display = 'block';
+        preview.style.display = 'inline-block';
       });
 
       // 为文档添加点击事件监听器，以隐藏图片预览
