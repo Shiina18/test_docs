@@ -6,8 +6,10 @@ document.addEventListener('DOMContentLoaded', function() {
   // 为每个链接添加事件监听器
   imageLinks.forEach(link => {
     // 只有当链接的href包含图片扩展名时才应用预览
-    // if ( /\.(jpe?g|png|gif)$/i.test(link.href) ) {
-    if (link.href.startsWith('http://gatherer.wizards.com/Handlers/Image.ashx')) {
+    if (
+	  link.href.startsWith('http://gatherer.wizards.com/Handlers/Image.ashx') ||
+	  ( /\.(jpe?g|png|gif)$/i.test(link.href) )
+	) {
       // 创建图片预览容器
       const preview = document.createElement('div');
       preview.className = 'image-preview';
