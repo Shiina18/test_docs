@@ -44,9 +44,26 @@ This is a caption in __*Markdown*__
 
 ## Motivation
 
-[图图](./_static/Snipaste_2023-04-13_18-44-55.png)
+:::{list-table}
 
-this [image](https://img.alicdn.com/imgextra/i1/O1CN01CC9kic1ig1r4sAY5d_!!6000000004441-2-tps-880-210.png) is cool
+-  - [Custom tip](https://example.com)
+
+-  - [Wikipedia tips](https://en.wikipedia.org/wiki/Tooltip)
+
+-  - [DOI tip](https://doi.org/10.1186/gm483)
+
+-  - [ReadTheDocs tip](https://www.sphinx-doc.org/en/master/usage/quickstart.html#intersphinx)
+
+-  - {ref}`Figure reference with URL image <./_static/Snipaste_2023-04-13_18-44-55.png>`
+
+:::
+
+
+[图](./_static/Snipaste_2023-04-13_18-44-55.png)
+
+[图](https://media.wizards.com/2022/snc/en_Zw3fQbmCPJ.png)
+
+{ref}`Figure reference with URL image <./_static/Snipaste_2023-04-13_18-44-55.png>`
 
 ## Acknowledgement
 
